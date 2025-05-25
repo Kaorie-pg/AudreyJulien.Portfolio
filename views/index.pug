@@ -1,0 +1,70 @@
+doctype html
+html
+   head
+      meta(charset="UTF-8")
+      link(rel="stylesheet" href="/css/style.css")
+      link(rel="icon", href="/images/Logo_AJ.png", type="image/png")
+      title Audrey JULIEN
+
+body
+   include partials/navbar
+
+   header#header
+      h1 Bonjour, je suis Audrey JULIEN
+      h2 Dévelopeuse web
+      p Curieuse, polyvalente et créative : je conçois des applications, sites et jeux avec autant de rigueur que de plaisir. 
+      p Je cherche avant tout à donner vie à des projets impactants, et toujours les améliorer que ce soit au niveau de leurs performance ou de leur fonctionnalités.
+      a(href="/cv/CV_AudreyJULIEN.pdf", download) Télécharger mon CV
+
+   section#services
+      h2 Services
+      ul
+         .services-container
+            .service-box
+               h3 Programmation web
+               p Création de sites web modernes, responsives et accessibles, adaptés à tous types d’écrans. Que ce soit pour un portfolio, un blog ou une application web, je conçois des interfaces claires et efficaces, avec des technologies comme HTML, CSS, JavaScript, Node.js et Express.
+            .service-box
+               h3 Programmation mobile
+               p Développement d’applications mobiles Android en utilisant Android Studio avec le langage Kotlin. Je conçois des interfaces simples et intuitives, tout en respectant les bonnes pratiques de l’environnement Android.
+            .service-box
+               h3 Programmation logicielle
+               p Conception d’applications logicielles robustes pour ordinateur (Windows/Linux), allant d’outils internes à des interfaces graphiques, en utilisant principalement des langages comme C++, C# ou Python.
+
+   section#experiences
+      h2 Expériences
+         .timeline
+            .timeline-step
+               .dot
+               .label 2023–2026
+               .desc BUT Informatique – Le Puy-en-Velay
+
+            .timeline-step
+               .dot
+               .label Avril 2024
+               .desc Semaine en entreprise – Création de sites web
+
+            .timeline-step
+               .dot
+               .label 2025
+               .desc Institut Pascal – Développement d'une IA pour la recherche
+
+   section#projets
+      h2 Projets
+      .projects-container
+         a.project-card(href="/projets/runathon")
+            h3 Runathon
+            p Un site web qui repense Jira
+
+         a.project-card(href="/projets/foreigngineer")
+            h3 ForeignGineer
+            p Un jeu éducatif sur l'écologie
+
+         a.project-card(href="/projets/glimmerwood")
+            h3 Glimmerwood
+            p Un site pour les passionnés de jeux de rôles
+
+   section#contact
+      h2 Contact
+      p Email : audreyjulien015@gmail.com
+      p Téléphone : 06 09 27 72 33
+      p Ville : La Roche Blanche
