@@ -25,6 +25,6 @@ app.get('/projets/glimmerwood', (req, res) => {
   res.render('projets/glimmerwood', { minimalNavbar: true });
 });
 
-app.listen(port, () => {
-  console.log(`Portfolio en ligne sur http://localhost:${port}`);
-});
+//app.listen(port, () => {
+  //console.log(`Portfolio en ligne sur http://localhost:${port}`);
+//});
