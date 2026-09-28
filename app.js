@@ -2,7 +2,7 @@ var express = require('express');
 var app = express();
 
 const path = require('path');
-const port = 3000;
+const port = 4000;
 
 app.use(express.static(path.join(__dirname, 'public')));
 
@@ -25,6 +25,6 @@ app.get('/projets/glimmerwood', (req, res) => {
   res.render('projets/glimmerwood', { minimalNavbar: true });
 });
 
-//app.listen(port, () => {
-  //console.log(`Portfolio en ligne sur http://localhost:${port}`);
-//});
+app.listen(port, () => {
+  console.log(`Portfolio en ligne sur http://localhost:${port}`);
+});

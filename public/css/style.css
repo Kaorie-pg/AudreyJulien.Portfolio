@@ -263,12 +263,28 @@ ul li {
   border-color: var(--secondary-color);
 }
 
+.responsive-img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 1em auto;
+}
+
 /* Pour ajouter un encadré ou une image plus tard */
 .project-screenshot {
   max-width: 100%;
   border-radius: 8px;
   box-shadow: 0 1px 5px rgba(0,0,0,0.1);
   margin: 20px 0;
+}
+
+.logo-img {
+    width: 150px;   /* Tu peux ajuster à 100px, 200px, etc. */
+    height: auto;
+    display: block;
+    margin: 1em auto; /* Centrage horizontal */
+    border-radius: 8px;
+    box-shadow: 0 1px 5px rgba(0,0,0,0.1);
 }
 
 /* Responsive */
